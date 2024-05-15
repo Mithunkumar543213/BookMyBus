@@ -6,6 +6,7 @@ const app = express.Router();
 
 app.post("/signup", async (req, res) => {
   let { email } = req.body;
+  console.log(email)
 
   try {
     let user = await UserModel.findOne({ email: email });
@@ -16,6 +17,9 @@ app.post("/signup", async (req, res) => {
         message: "Please try with different email",
       });
     }
+
+    const {password,gender}=req.body
+    console.log(email,password)
     user = await UserModel.create(req.body);
 
     return res.send({

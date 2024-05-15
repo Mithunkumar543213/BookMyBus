@@ -23,7 +23,7 @@ const Navbar = () => {
           style={{ cursor: "pointer" }}
           onClick={() => navigate("/")}
         >
-          BlueBus
+          BookMyBus
         </a>
         <button
           className="navbar-toggler"

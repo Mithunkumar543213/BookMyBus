@@ -15,12 +15,10 @@ function Footer() {
             <div className="col-xl-3 col-lg-4 col-md-6">
               <div>
                 <h3>
-                  <span style={{ color: "#5266FA" }}>Blue</span>Bus
+                  <span style={{ color: "#5266FA" }}>BookMyBus</span>
                 </h3>
                 <p className="mb-30 footer-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                  soluta facilis eos quia optio iusto odit atque eum tempore,
-                  quisquam officiis vero veniam hic,
+                  BookMyBuS is online ticket bookig application which help to book ticket
                 </p>
               </div>
             </div>
@@ -81,7 +79,7 @@ function Footer() {
           <div className="d-flex justify-content-center">
             <div className="copyright">
               <p className={styles.companyinfo}>
-                2023 ibibogroup All rights reserved company.
+                2024 BookMyBus All rights reserved company.
               </p>
             </div>
           </div>

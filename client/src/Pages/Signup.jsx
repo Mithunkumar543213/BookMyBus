@@ -35,7 +35,7 @@ function Signup() {
     } else {
       try {
         let response = await axios.post(
-          "https://blue-bus.onrender.com/user/signup",
+          "http://localhost:8080/user/signup",
           signUpcreds
         );
         console.log(response);

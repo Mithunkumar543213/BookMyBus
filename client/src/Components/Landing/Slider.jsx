@@ -165,6 +165,18 @@ function Slider() {
           <div className="carousel-inner">
 
             <div className="carousel-item active" data-bs-interval="3000">
+            {" "}
+              <img
+                src={require("../../Images/Bus.jpg")}
+                className="object-fit-cover"
+                style={{ height: "75vh", width: "100%" }}
+                alt="..."
+                onMouseOver={handelhover}
+                onMouseLeave={handelhoverout}
+              />
+            </div>
+            <div className="carousel-item" data-bs-interval="3000">
+
               {" "}
               <img
                 src={require("../../Images/photo-1590523277543-a94d2e4eb00b.avif")}
@@ -178,7 +190,7 @@ function Slider() {
             <div className="carousel-item" data-bs-interval="3000">
               {" "}
               <img
-                src={require("../../Images/photo-1544091441-9cca7fbe8923.avif")}
+                src={require("../../Images/BusTickets-India.jpg")}
                 className="object-fit-cover"
                 alt="..."
                 style={{ height: "75vh", width: "100%" }}
@@ -235,6 +247,7 @@ function Slider() {
         </div>
         <div className={styles.data}>
           <input
+          
             type="text"
             placeholder="Source"
             value={source}

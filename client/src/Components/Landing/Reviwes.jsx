@@ -16,43 +16,59 @@ function Reviews() {
       <div className={styles.reviewmain}>
         <div className="card">
           <img
-            src={require("../../Images/pexels-photo-2381069.webp")}
+          style={{
+                  height:"350px",
+                  display:"block",
+                  objectFit:"cover",
+                  
+          }}
+            src={require("../../Images/mithun.jpg")}
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Kathrin Brown</h5>
+            <h5 className="card-title">Mithun Kumar Yadav</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              BookMyBus is good plateform to book online tiket and BookMyBus provide easy and simple way of booking ticket with online payment .
             </p>
           </div>
         </div>
         <div className="card">
           <img
-            src={require("../../Images/pexels-photo-3778680.webp")}
+           style={{
+            height:"350px",
+            display:"block",
+            objectFit:"cover"
+            
+    }}
+            src={require("../../Images/zeeshan.jpg")}
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">John Buch</h5>
+            <h5 className="card-title">Mohd Zeeshan</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              BookMyBus is a simple online booking aplcation which help to available buses and book ticket.
             </p>
           </div>
         </div>
         <div className="card">
           <img
-            src={require("../../Images/pexels-photo-2381069.webp")}
+          style={{
+            height:"355px",
+            display:"block",
+            objectFit:"cover",
+            
+            
+    }}
+            src={require("../../Images/priyanshu.jpg")}
             className="card-img-top"
             alt="..."
           />
           <div className="card-body">
-            <h5 className="card-title">Kira Adavani</h5>
+            <h5 className="card-title">Priyanshu Kumar</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            BookMyBus is a simple online booking platform to booking ticket with online payment.
             </p>
           </div>
         </div>
